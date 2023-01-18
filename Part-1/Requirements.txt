@@ -1,0 +1,28 @@
+README
+
+Steps to execute code:
+1. Select python version (3.5 - 3.7) windows installer file from official python org website.
+   https://www.python.org/downloads/windows/
+2. Download the python executable installer for windowsx64 model
+3. Run the executable installer and set necessary path required for storing the installed data.
+4. Verify whether python is installed properly on the system
+	Follow the process for verification:
+	a. Open the command prompt
+	b. Type python and click Enter
+	c. Check the python version in the response (Should be something as below)
+		Python 3.7.8 (tags/v3.7.8:4b47a5b6ba, Jun 28 2020, 08:53:46) [MSC v.1916 64 bit (AMD64)] on win64
+	d. Check whether pip is installed properly on the system by using the command 'pip -v'
+5. Once python installation is verified, we need to install the necessary packages such as numpy, pandas, datetime and scikit-learn modules
+   using the pip install command in CMD.
+   Example: pip install pandas==<version>
+6. Download the given CSV files (CGMData & InsulinData) and save them in a folder. Include the main executable python code in the same folder.
+7. Open command prompt with the target folder path and execute the main.py file using the below command.
+	python main.py
+8. Once the code is executed successfully, the results can be found the Results.csv file in the target folder.
+
+Resources used:
+1. https://www.python.org/downloads/windows/
+2. https://pandas.pydata.org/docs/getting_started/install.html
+3. https://docs.python.org/3/library/datetime.html
+4. https://www.geeksforgeeks.org/python-data-analysis-using-pandas/
+
